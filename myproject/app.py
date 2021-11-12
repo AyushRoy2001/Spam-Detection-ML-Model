@@ -9,14 +9,6 @@ model = pickle.load(open('spam.pkl','rb'))
 
 st.title('Spam Mail Predictor')
 
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://images.app.goo.gl/iLCiyjKQ9DsmN4zCA");
-background-size: cover;
-}
-</style>
-'''
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 name = st.text_input('Full Name')
